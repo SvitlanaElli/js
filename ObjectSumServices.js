@@ -43,6 +43,6 @@ services.maxPrice = function () {
 };
 
 // Викликаємо методи
-console.log("Загальна вартість послуг: " + services.price() + " грн");
-console.log("Мінімальна вартість послуг: " + services.minPrice() + " грн");
-console.log("Максимальна вартість послуг: " + services.maxPrice() + " грн");
+console.log("Загальна вартість: " + services.price() + " грн");
+console.log("Мінімальна вартість: " + services.minPrice() + " грн");
+console.log("Максимальна вартість: " + services.maxPrice() + " грн");

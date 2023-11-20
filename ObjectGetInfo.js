@@ -1,11 +1,11 @@
-// створюємо конструктор 
+// створюю конструктор 
 function MyObject(shape, form, color) {
     this.shape = shape;
     this.form = form;
     this.color = color;
 }
 
-// додаємо метод getInfo
+// додаю метод
 MyObject.prototype.getInfo = function () {
     let info = '';
     for (let key in this) {
@@ -16,7 +16,7 @@ MyObject.prototype.getInfo = function () {
     info = info.slice(0, -2);
     console.log(info);
 };
-// створюємо обджект
+// створюю обджект
 let myObject = new MyObject('твердий', 'круглий', 'зелений');
 
 myObject.getInfo();
